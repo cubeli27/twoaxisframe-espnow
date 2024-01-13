@@ -11,12 +11,23 @@ Welcome to the ESP-NOW Wireless Camera Control project! This repository showcase
 
 ## Project Structure
 
-- **3D_Model:** Stores the 3D printed part models. (Currently not available; I'd like to make some improvements)
+- **3D_Model:** Stores the 3D printed part models.
 - **Images:** Stores project-related images.
-- **PCB_Design:** Contains PCB design-related files, relatively simple and hence can easily be done on a perf board. 
+- **PCB_Design:** Contains PCB design-related files. (Unavailable, since the PCB design is so simple it can be done on a perf board)
 - **Source_Code:** Houses the source code for both the transmitter and receiver.
 - **README.md:** The main documentation file providing an overview of the project, and features.
 
+Design process: 
 
-<img src="capture/2Servo-FullFrame-Assembly v7.png" alt="3dmodel">
+<p align="center">
+  <img src="Images/assembly.PNG" alt="Image 1" width="45%">
+  <img src="Images/pcba.PNG" alt="Image 2" width="45%">
+</p>
 
+Results: 
+
+Roll and pitch of the remote control(esp32 on a breadboard) effectively change the yaw and pitch of the esp32-cam by rotating the two servos respectively. And the push-button turns the on-board LED on.
+
+<img src="Images/inaction.jpg" alt="inaction" width="45%">
+
+Videos of the working prototype can be found on my Instagram. 
