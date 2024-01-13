@@ -1,0 +1,9 @@
+PCB design is so simple I opted to use a perfboard.
+Parts:
+-9v DC Barrel Jack connector
+-Voltage Reg with coresponding input/output capacitors
+-Socket for the esp32-cam
+-pinheaders for the servo connections
+
+Connections:
+esp32-cam pins 12 & 13 to signal pin on the pinheaders 
